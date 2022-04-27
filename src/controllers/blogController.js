@@ -63,7 +63,7 @@ const blogData = async function (req, res) {
     }
 
     catch (err) {
-        console.log(err.message)
+        
         res.status(500).send({ msg: "error", error: err.message })
     }
 }
