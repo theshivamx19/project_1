@@ -7,6 +7,7 @@ const blogController = require("../controllers/blogController")
 
 router.post("/createauthor", autherController.createAuther)
 router.post("/createblogs", blogController.createblog)
+router.get('/blogData', blogController.blogData)
 
 
 
